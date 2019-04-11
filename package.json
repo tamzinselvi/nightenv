@@ -1,6 +1,6 @@
 {
   "name": "nightenv",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "a utility for updating editor, OS and other themes based on the time of day",
   "homepage": "https://github.com/tomselvi/nightenv",
   "main": "lib/update.js",
