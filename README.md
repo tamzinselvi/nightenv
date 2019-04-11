@@ -1,4 +1,4 @@
-# 🌙 nightenv [![npm](https://img.shields.io/npm/dt/nightenv.svg)](https://github.com/mjswensen/themer#installation)
+# 🌙 nightenv [![npm](https://img.shields.io/npm/dt/nightenv.svg)](https://github.com/tomselvi/nightenv#installation)
 
 `nightenv` can be configured to change your editor themes, OS themes, and more based on the time of day.
 
