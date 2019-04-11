@@ -8,13 +8,14 @@ const config = fs.existsSync(configPath)
   ? require(configPath)
   : null
 
-const force = process.argv.indexOf("--force") !== -1
-
 if (!config) {
   process.exit()
 }
 
 const prevHours = config.prevHours
+
+const force = process.argv.indexOf("--force") !== -1 || prevHours === undefined
+
 const hours = new Date().getHours()
 const { configurations, daytime, nighttime } = config
 
