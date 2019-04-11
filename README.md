@@ -12,6 +12,7 @@
   * [Editors/IDEs](#editorsides)
   * [OS](#os)
 * [About](#about)
+* [Roadmap](#roadmap)
 
 ## Requirements
 
@@ -65,4 +66,16 @@ module.exports.execute = function(config, isNight) {
 
 ## About
 
-After many days of switching between dark and light themes to reduce eye strain, I neeed an automated solution, hence `nightenv`.  This is not meant to be a state of the art piece of software, but instead it was meant to be a quick and easy tool that could be easily extended.  Feel free to contribute new plugins or update the already existing ones if you have any issues.
+After many days of switching between dark and light themes to reduce eye strain, I needed an automated solution, hence `nightenv`.  This is not meant to be a state of the art piece of software, but instead it was meant to be a quick and easy tool that could be easily extended.  Feel free to contribute new plugins or update the already existing ones if you have any issues.
+
+## Roadmap
+
+Will probably declare v1 after the following items are compeleted, not in any particular order:
+
+* tests / coverage
+* tmux
+* vim
+* slack
+* Windows 10
+* Linux
+* ?
