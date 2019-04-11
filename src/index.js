@@ -44,7 +44,7 @@ const configurationTemplate = (daytime, nighttime) => `{
 
 const crontabTemplate = (nodeBin, updateBin) => `
 # nightenv
-*/5 * * * * ${nodeBin} ${updateBin}`
+*/1 * * * * ${nodeBin} ${updateBin}`
 
 
 const main = async () => {
