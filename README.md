@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+* [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
 * [nightenv plugins](#nightenv-plugins)
@@ -11,6 +12,10 @@
   * [Editors/IDEs](#editorsides)
   * [OS](#os)
 * [About](#about)
+
+## Requirements
+
+* node >= 6.11
 
 ## Installation
 

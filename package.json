@@ -16,6 +16,10 @@
   },
   "author": "tomselvi",
   "license": "MIT",
+  "engines": {
+    "node": ">=6.11"
+  },
+  "engineStrict": true,
   "dependencies": {
     "babel-cli": "^6.18.0",
     "babel-plugin-inline-json-import": "^0.2.1",
