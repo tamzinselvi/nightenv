@@ -29,6 +29,8 @@ const main = async () => {
     }
   }
 
+  config.prevHours = hours
+
   fs.writeFileSync(configPath, JSON.stringify(config, false, "  "))
 }
 
