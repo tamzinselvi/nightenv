@@ -39,7 +39,8 @@ const exec = (cmd) => {
 const configurationTemplate = (daytime, nighttime) => `{
   "configurations": {},
   "daytime": ${daytime},
-  "nighttime": ${nighttime}
+  "nighttime": ${nighttime},
+  "prevHours", -1
 }`
 
 const crontabTemplate = (nodeBin, updateBin) => `
