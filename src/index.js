@@ -75,19 +75,23 @@ const main = async () => {
     const crontab = fs.readFileSync("crontmp")
     let crontabStr = crontab.toString()
 
-    const nodeBin = await exec("which node")
-    const updateBin = await exec("which nightenv-update")
+    if (crontabStr.indexOf("# nightenv") === -1) {
+      const nodeBin = await exec("which node")
+      const updateBin = await exec("which nightenv-update")
 
-    crontabStr += crontabTemplate(nodeBin.replace("\n", ""), updateBin.replace("\n", ""))
+      crontabStr += crontabTemplate(nodeBin.replace("\n", ""), updateBin.replace("\n", ""))
 
-    fs.writeFileSync("crontmp", crontabStr)
+      fs.writeFileSync("crontmp", crontabStr)
 
 
-    await exec("crontab crontmp")
+      await exec("crontab crontmp")
+
+      console.log("successfully updated your crontab".green)
+    } else {
+      console.log("crontab entry already found, no changes made".green)
+    }
 
     fs.unlinkSync("crontmp")
-
-    console.log("successfully updated your crontab".green)
   } else {
     console.log("there was an issue updating your crontab".red)
     process.exit(1)
