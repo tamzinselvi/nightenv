@@ -35,15 +35,19 @@ nightenv
 
 ### Terminals
 
-* [nightenv-iterm](https://github.com/tomselvi/nightenv-iterm)
+* [nightenv-iterm](https://github.com/tomselvi/nightenv/tree/master/packages/nightenv-iterm)
 
 ### Editors/IDEs
 
-* [nightenv-vscode](https://github.com/tomselvi/nightenv-vscode)
+* [nightenv-vscode](https://github.com/tomselvi/nightenv/tree/master/packages/nightenv-vscode)
+
+### Productivity
+
+* [nightenv-slack](https://github.com/tomselvi/nightenv/tree/master/packages/nightenv-slack)
 
 ### OS
 
-* [nightenv-osx](https://github.com/tomselvi/nightenv-osx)
+* [nightenv-osx](https://github.com/tomselvi/nightenv/tree/master/packages/nightenv-osx)
 
 ### Create your own plugin
 
