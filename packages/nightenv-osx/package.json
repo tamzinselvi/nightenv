@@ -2,7 +2,7 @@
   "name": "nightenv-osx",
   "version": "0.3.0",
   "description": "nightenv plugin for OSX darkmode and desktop wallpapers",
-  "homepage": "https://github.com/tomselvi/nightenv-osx",
+  "homepage": "https://github.com/tomselvi/nightenv",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",

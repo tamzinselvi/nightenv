@@ -2,7 +2,7 @@
   "name": "nightenv-slack",
   "version": "0.3.0",
   "description": "nightenv plugin for slack",
-  "homepage": "https://github.com/tomselvi/nightenv-slack",
+  "homepage": "https://github.com/tomselvi/nightenv",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",

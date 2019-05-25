@@ -2,7 +2,7 @@
   "name": "nightenv-vscode",
   "version": "0.3.0",
   "description": "nightenv plugin for vscode",
-  "homepage": "https://github.com/tomselvi/nightenv-vscode",
+  "homepage": "https://github.com/tomselvi/nightenv",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
