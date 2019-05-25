@@ -29,3 +29,10 @@ export const exec = (cmd: string): Promise<string> => {
     })
   })
 }
+
+
+export const timeout = (time: number) => {
+  return new Promise((resolve) =>
+    setTimeout(resolve, time),
+  )
+}

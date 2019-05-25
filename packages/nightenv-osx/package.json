@@ -1,0 +1,29 @@
+{
+  "name": "nightenv-osx",
+  "version": "0.1.3",
+  "description": "nightenv plugin for OSX darkmode and desktop wallpapers",
+  "homepage": "https://github.com/tomselvi/nightenv-osx",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jest",
+    "start": "watch 'npm run test' src",
+    "prepare": "npm run build"
+  },
+  "author": "tomselvi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.11"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "dark-mode": "3.0.0",
+    "sqlite": "3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.2",
+    "nightenv": "0.2.9",
+    "jest": "18.1.0",
+    "typescript": "3.4.5"
+  }
+}

@@ -25,4 +25,9 @@ exports.exec = function (cmd) {
         });
     });
 };
+exports.timeout = function (time) {
+    return new Promise(function (resolve) {
+        return setTimeout(resolve, time);
+    });
+};
 //# sourceMappingURL=util.js.map

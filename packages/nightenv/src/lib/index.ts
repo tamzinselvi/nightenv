@@ -6,8 +6,11 @@ export interface NightenvOptions {
   isNight: boolean;
 }
 
+export type NightenvExecuteFn<NightenvConfiguration = Object> =
+  (configuration: NightenvConfiguration, options: NightenvOptions) => Promise<NightenvConfiguration>
+
 export interface NightenvModule<NightenvConfiguration = Object> {
-  execute(configuration: NightenvConfiguration, options: NightenvOptions): Promise<NightenvConfiguration>
+  execute: NightenvExecuteFn<NightenvConfiguration>
 }
 
 export enum CronJobStatus {

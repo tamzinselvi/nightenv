@@ -1,0 +1,25 @@
+{
+  "name": "nightenv-iterm",
+  "version": "0.1.2",
+  "description": "nightenv plugin for iterm2",
+  "homepage": "https://github.com/tomselvi/nightenv",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jest",
+    "start": "watch 'npm run test' src",
+    "prepare": "npm run build"
+  },
+  "author": "tomselvi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.11"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "@types/node": "12.0.2",
+    "nightenv": "0.2.9",
+    "jest": "18.1.0",
+    "typescript": "3.4.5"
+  }
+}
