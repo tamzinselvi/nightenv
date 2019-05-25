@@ -1,7 +1,7 @@
+import { NightenvExecuteFn } from "nightenv"
 import * as os from "os"
 import * as path from "path"
 import * as fs from "fs"
-import { NightenvExecuteFn } from "nightenv"
 
 interface NightenvIterm2Configuration {
   day: string;
