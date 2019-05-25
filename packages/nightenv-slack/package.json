@@ -1,8 +1,8 @@
 {
-  "name": "nightenv-iterm",
+  "name": "nightenv-slack",
   "version": "0.2.9",
-  "description": "nightenv plugin for iterm2",
-  "homepage": "https://github.com/tomselvi/nightenv",
+  "description": "nightenv plugin for slack",
+  "homepage": "https://github.com/tomselvi/nightenv-slack",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",

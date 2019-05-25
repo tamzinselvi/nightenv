@@ -1,6 +1,6 @@
 {
   "name": "nightenv-vscode",
-  "version": "0.1.1",
+  "version": "0.2.9",
   "description": "nightenv plugin for vscode",
   "homepage": "https://github.com/tomselvi/nightenv-vscode",
   "main": "lib/index.js",

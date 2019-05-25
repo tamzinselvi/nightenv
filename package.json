@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "version": "0.2.0",
+  "version": "0.2.9",
   "description": "`nightenv` can be configured to change your editor themes, OS themes, and more based on the time of day.",
   "main": "index.js",
   "dependencies": {
